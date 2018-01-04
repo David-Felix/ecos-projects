@@ -6,13 +6,12 @@
 # e-mail: davidfelixjt@hotmail.com
 # -----------------------------------#
 
-# Imports
 import os
 
 # Variáveis globais
-E = '\e' # Gambiarra temporária, serve para adicionar a \ antes da pasta da escola
+E = '\e'
 
-# Diretórios que contém os arquivos a serão comparados
+# Diretórios que contém os arquivos a serem comparados
 MAIN_FOLDER = "C:\Users\Oficial\Desktop\chamados"
 SCHOOLS_FOLDER = "C:\Users\Oficial\Desktop\escolas"
 
