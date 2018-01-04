@@ -36,11 +36,14 @@ for folder in main_directory_list:
 
         break
 
-    print '\nComparação'
-    print 'Pasta em Chamados: ' + folder
+    print 'Pasta de Chamados: ' + folder
     print 'Quantidade de arquivos: ' + str(len(files_from_folder))
     print 'Pasta em Escolas: ' + schools_folders
     print 'Quantidade de arquivos: ' + str(len(files_from_schools_folder))
+    if (len(files_from_folder) != len(files_from_schools_folder)):
+        print 'Faltam arquivos!'
+    else:
+        print 'Tudo certo!'
     print '\n'
 
 
